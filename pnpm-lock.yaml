@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      '@heraclius/external-deps-plugin':
+        specifier: ^0.1.0
+        version: 0.1.0(vite@5.3.3(@types/node@20.14.10))
       '@heraclius/js-tools':
         specifier: ^0.1.0
         version: 0.1.0
@@ -186,6 +189,11 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [win32]
+
+  '@heraclius/external-deps-plugin@0.1.0':
+    resolution: {integrity: sha512-j+A4IRQE4WkFka+I4U2ffNDG3gxIszAB/9yzhc72x4DmePyDSb+UdYwX5JRB+ECTYtDoBSFBN9T8mAv21ie1bg==, tarball: https://registry.npmjs.org/@heraclius/external-deps-plugin/-/external-deps-plugin-0.1.0.tgz}
+    peerDependencies:
+      vite: ^5.3.3
 
   '@heraclius/js-tools@0.1.0':
     resolution: {integrity: sha512-Ymp2ay3SjRdlXdYi3oWHPa4hvr8vhdOuXMzcWtgqcvn+atdt7HOkNsyMVHcz4NOFYkibxbgxZjkeDqV8oCpyNQ==}
@@ -1121,6 +1129,10 @@ snapshots:
 
   '@esbuild/win32-x64@0.21.5':
     optional: true
+
+  '@heraclius/external-deps-plugin@0.1.0(vite@5.3.3(@types/node@20.14.10))':
+    dependencies:
+      vite: 5.3.3(@types/node@20.14.10)
 
   '@heraclius/js-tools@0.1.0': {}
 
