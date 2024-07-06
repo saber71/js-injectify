@@ -1,0 +1,32 @@
+{
+  "name": "@heraclius/injectify",
+  "version": "0.1.0",
+  "description": "使用TypeScript实现的依赖注入库。提供一个简洁、易用且功能强大的依赖注入解决方案，帮助开发者在TypeScript项目中更加高效地管理依赖关系",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "vite build",
+    "watch": "vite build --watch",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@heraclius/js-tools": "^0.1.0",
+    "eventemitter3": "^5.0.1",
+    "reflect-metadata": "^0.2.2",
+    "unplugin-swc": "^1.5.1",
+    "vite": "^5.3.3",
+    "vite-plugin-dts": "^3.9.1",
+    "vitest": "^1.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "@heraclius/js-tools": "^0.1.0",
+    "eventemitter3": "^5.0.1",
+    "reflect-metadata": "^0.2.2"
+  }
+}
