@@ -191,7 +191,7 @@ packages:
     os: [win32]
 
   '@heraclius/external-deps-plugin@0.1.1':
-    resolution: {integrity: sha512-BaNyPdsYIInV7FZIQbwyYAPiYKvH6T/XpEWMqAI3md6763267LFIQPLVK8Wc2v9iYJsO65ZSNduzLRgXGdb1qQ==, tarball: https://registry.npmjs.org/@heraclius/external-deps-plugin/-/external-deps-plugin-0.1.1.tgz}
+    resolution: {integrity: sha512-BaNyPdsYIInV7FZIQbwyYAPiYKvH6T/XpEWMqAI3md6763267LFIQPLVK8Wc2v9iYJsO65ZSNduzLRgXGdb1qQ==}
     peerDependencies:
       vite: ^5.3.3
 
