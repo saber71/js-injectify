@@ -10,7 +10,7 @@
     "test": "vitest run"
   },
   "devDependencies": {
-    "@heraclius/external-deps-plugin": "^0.1.0",
+    "@heraclius/external-deps-plugin": "^0.1.1",
     "@heraclius/js-tools": "^0.1.0",
     "eventemitter3": "^5.0.1",
     "reflect-metadata": "^0.2.2",
