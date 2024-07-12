@@ -1,6 +1,6 @@
 {
   "name": "@heraclius/injectify",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "使用TypeScript实现的依赖注入库。提供一个简洁、易用且功能强大的依赖注入解决方案，帮助开发者在TypeScript项目中更加高效地管理依赖关系",
   "type": "module",
   "main": "dist/index.js",
