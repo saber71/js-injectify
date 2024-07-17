@@ -12,8 +12,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0(vite@5.3.4(@types/node@20.14.10))
       '@heraclius/js-tools':
-        specifier: ^0.1.0
-        version: 0.1.0
+        specifier: ^1.0.0
+        version: 1.0.0
       eventemitter3:
         specifier: ^5.0.1
         version: 5.0.1
@@ -199,8 +199,8 @@ packages:
     peerDependencies:
       vite: ^5.3.3
 
-  '@heraclius/js-tools@0.1.0':
-    resolution: {integrity: sha512-Ymp2ay3SjRdlXdYi3oWHPa4hvr8vhdOuXMzcWtgqcvn+atdt7HOkNsyMVHcz4NOFYkibxbgxZjkeDqV8oCpyNQ==}
+  '@heraclius/js-tools@1.0.0':
+    resolution: {integrity: sha512-teqH5fprYuxNC8lKPNj1NtpNPhrk+juhSJJmsX497o4vlxjji2Pob+cL9xplD07+picvjLt1k1y7RokzIGMrMw==}
 
   '@jridgewell/gen-mapping@0.3.5':
     resolution: {integrity: sha512-IzL8ZoEDIBRWEzlCcRhOaCupYyN5gdIK+Q6fbFdPDg6HqX6jpkItn7DFIpW9LQzXG6Df9sA7+OKnq0qlz/GaQg==}
@@ -1095,7 +1095,7 @@ snapshots:
     dependencies:
       vite: 5.3.4(@types/node@20.14.10)
 
-  '@heraclius/js-tools@0.1.0': {}
+  '@heraclius/js-tools@1.0.0': {}
 
   '@jridgewell/gen-mapping@0.3.5':
     dependencies:

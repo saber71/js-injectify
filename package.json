@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@heraclius/external-deps-plugin": "^1.0.0",
-    "@heraclius/js-tools": "^0.1.0",
+    "@heraclius/js-tools": "^1.0.0",
     "eventemitter3": "^5.0.1",
     "reflect-metadata": "^0.2.2",
     "unplugin-swc": "^1.5.1",
@@ -26,7 +26,7 @@
     "dist"
   ],
   "peerDependencies": {
-    "@heraclius/js-tools": "^0.1.0",
+    "@heraclius/js-tools": "^1.0.0",
     "eventemitter3": "^5.0.1",
     "reflect-metadata": "^0.2.2"
   }
